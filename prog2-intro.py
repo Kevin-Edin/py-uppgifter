@@ -3,7 +3,7 @@ best_font = "Comic Sans"
 
 while True:
     answer = input("Vilken är den bästa fonten?: ")
-    if answer == "Comic Sans":
+    if answer.lower() == best_font.lower():
         print("WOW! Vad rätt du har! Du får A!")
         grade = "A"
     else:
